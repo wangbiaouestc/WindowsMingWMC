@@ -1,0 +1,196 @@
+libavcodec_opencl_a-h264_idct_opencl.o: \
+ ../../../h264dec/libavcodec/opencl/h264_idct_opencl.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/unistd.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/process.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/getopt.h \
+ ../../../h264dec/libavcodec/opencl/../h264.h \
+ ../../../h264dec/libavcodec/opencl/../h264_entropy.h \
+ ../../../h264dec/libavcodec/opencl/../h264_types.h ../../config.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/pthread.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/time.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/setjmp.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sched.h \
+ ../../../h264dec/libavcodec/opencl/../avcodec.h \
+ ../../../h264dec/libavutil/mem.h ../../../h264dec/libavutil/attributes.h \
+ ../../../h264dec/libavcodec/opencl/../cabac.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h \
+ ../../../h264dec/libavutil/x86_cpu.h \
+ ../../../h264dec/libavutil/attributes.h \
+ ../../../h264dec/libavcodec/opencl/../h264_dsp.h \
+ ../../../h264dec/libavcodec/opencl/../dsputil.h \
+ ../../../h264dec/libavutil/intreadwrite.h \
+ ../../../h264dec/libavutil/bswap.h \
+ ../../../h264dec/libavutil/x86/bswap.h \
+ ../../../h264dec/libavutil/common.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ ../../../h264dec/libavutil/mem.h \
+ ../../../h264dec/libavutil/x86/intreadwrite.h \
+ ../../../h264dec/libavcodec/opencl/../h264_idct.h \
+ ../../../h264dec/libavcodec/opencl/../h264_pred.h \
+ ../../../h264dec/libavutil/common.h \
+ ../../../h264dec/libavcodec/opencl/../get_bits.h \
+ ../../../h264dec/libavutil/bswap.h ../../../h264dec/libavutil/log.h \
+ ../../../h264dec/libavcodec/opencl/../mathops.h \
+ ../../../h264dec/libavutil/internal.h ../../../h264dec/libavutil/timer.h \
+ ../../../h264dec/libavutil/x86/timer.h \
+ ../../../h264dec/libavcodec/opencl/../x86/mathops.h \
+ ../../../h264dec/libavcodec/opencl/../h264_data.h \
+ ../../../h264dec/libavcodec/opencl/../h264_mc.h \
+ ../../../h264dec/libavcodec/opencl/../h264_misc.h \
+ ../../../h264dec/libavcodec/opencl/../h264_parser.h \
+ ../../../h264dec/libavcodec/opencl/../h264_nal.h \
+ ../../../h264dec/libavcodec/opencl/../h264_rec.h \
+ ../../../h264dec/libavcodec/opencl/../h264_deblock.h \
+ ../../../h264dec/libavcodec/opencl/../h264_pred_mode.h \
+ ../../../h264dec/libavcodec/opencl/h264_idct_opencl.h \
+ ../../../h264dec/libavcodec/opencl/h264_opencl.h \
+ ../../../h264dec/libavcodec/opencl/../cl.h \
+ ../../../h264dec/libavcodec/opencl/../cl_platform.h \
+ ../../../h264dec/libavcodec/opencl/../h264_types.h \
+ ../../../h264dec/libavcodec/opencl/gpu_common.h
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/unistd.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/process.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/getopt.h:
+
+../../../h264dec/libavcodec/opencl/../h264.h:
+
+../../../h264dec/libavcodec/opencl/../h264_entropy.h:
+
+../../../h264dec/libavcodec/opencl/../h264_types.h:
+
+../../config.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/pthread.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/time.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/setjmp.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sched.h:
+
+../../../h264dec/libavcodec/opencl/../avcodec.h:
+
+../../../h264dec/libavutil/mem.h:
+
+../../../h264dec/libavutil/attributes.h:
+
+../../../h264dec/libavcodec/opencl/../cabac.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h:
+
+../../../h264dec/libavutil/x86_cpu.h:
+
+../../../h264dec/libavutil/attributes.h:
+
+../../../h264dec/libavcodec/opencl/../h264_dsp.h:
+
+../../../h264dec/libavcodec/opencl/../dsputil.h:
+
+../../../h264dec/libavutil/intreadwrite.h:
+
+../../../h264dec/libavutil/bswap.h:
+
+../../../h264dec/libavutil/x86/bswap.h:
+
+../../../h264dec/libavutil/common.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+../../../h264dec/libavutil/mem.h:
+
+../../../h264dec/libavutil/x86/intreadwrite.h:
+
+../../../h264dec/libavcodec/opencl/../h264_idct.h:
+
+../../../h264dec/libavcodec/opencl/../h264_pred.h:
+
+../../../h264dec/libavutil/common.h:
+
+../../../h264dec/libavcodec/opencl/../get_bits.h:
+
+../../../h264dec/libavutil/bswap.h:
+
+../../../h264dec/libavutil/log.h:
+
+../../../h264dec/libavcodec/opencl/../mathops.h:
+
+../../../h264dec/libavutil/internal.h:
+
+../../../h264dec/libavutil/timer.h:
+
+../../../h264dec/libavutil/x86/timer.h:
+
+../../../h264dec/libavcodec/opencl/../x86/mathops.h:
+
+../../../h264dec/libavcodec/opencl/../h264_data.h:
+
+../../../h264dec/libavcodec/opencl/../h264_mc.h:
+
+../../../h264dec/libavcodec/opencl/../h264_misc.h:
+
+../../../h264dec/libavcodec/opencl/../h264_parser.h:
+
+../../../h264dec/libavcodec/opencl/../h264_nal.h:
+
+../../../h264dec/libavcodec/opencl/../h264_rec.h:
+
+../../../h264dec/libavcodec/opencl/../h264_deblock.h:
+
+../../../h264dec/libavcodec/opencl/../h264_pred_mode.h:
+
+../../../h264dec/libavcodec/opencl/h264_idct_opencl.h:
+
+../../../h264dec/libavcodec/opencl/h264_opencl.h:
+
+../../../h264dec/libavcodec/opencl/../cl.h:
+
+../../../h264dec/libavcodec/opencl/../cl_platform.h:
+
+../../../h264dec/libavcodec/opencl/../h264_types.h:
+
+../../../h264dec/libavcodec/opencl/gpu_common.h:

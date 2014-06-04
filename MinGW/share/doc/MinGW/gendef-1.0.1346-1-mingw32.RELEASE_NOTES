@@ -1,0 +1,88 @@
+mingw32 getdef
+========================================================================
+Extract exported symbols from a 32bit or 64bit EXE or DLL. gendef can
+automatically detect stdcall, fastcall, and cdecl calling conventions
+and generate the correctly decorated function names, without requiring
+the header files or a C pre-processor. Works with both 32bit and 64bit
+images.
+
+gendef does this by disassembling the function prologues of each
+function to determine the calling convention and argument stack usage.
+However, while generally reliable, it isn't foolproof. So, check the
+results, and if you have the headers available, compare against the
+results computed by pexports.
+
+gendef takes no arguments except a list of DLLs. The output .def
+files are placed in the current working directory, named as follows:
+   /path/to/foo.dll -> ./foo.def
+If the LAST argument to gendef is '-', then all .def files are printed
+to stdout, one after another.
+
+Runtime requirements
+  n/a
+
+Build requirements (these, or newer)
+  MinGW compiler
+    binutils-2.19.1-mingw32-bin.tar.gz
+    gcc-core-4.4.0-mingw32-bin.tar.gz
+    gcc-core-4.4.0-mingw32-dll.tar.gz
+    mingwrt-3.15.2-mingw32-dev.tar.gz
+    mingwrt-3.15.2-mingw32-dll.tar.gz
+    w32api-3.13-mingw32-dev.tar.gz
+    gmp-4.2.4-mingw32-dll.tar.gz
+    mpfr-2.4.1-mingw32-dll.tar.gz
+
+<<<< FIXME: fill this in as part of mingw-get installer rollout >>>>> 
+  MSYS Environment
+    msysCORE-1.0.11-bin.tar.gz (e.g. stock MSYS 1.0.11 installation)
+    coreutils-5.97-MSYS-1.0.11-snapshot.tar.bz2
+<<<< END FIXME >>>>
+     
+Canonical homepage:
+  http://mingw-w64.svn.sourceforge.net/viewvc/mingw-w64/trunk/mingw-w64-tools/gendef/
+
+Canonical download:
+  (a) svn co \
+    https://mingw-w64.svn.sourceforge.net/viewvc/mingw-w64/trunk/mingw-w64-tools/gendef/ \
+    -r 1346 gendef
+  (b) http://mingw-w64.svn.sourceforge.net/viewvc/mingw-w64/trunk/mingw-w64-tools/gendef.tar.gz?view=tar&pathrev=1346
+
+License:
+  MIT/X
+
+Language:
+  C
+
+========================================================================
+
+Build instructions:
+  unpack gendef-1.0.1346-1-mingw32-src.tar.lzma
+  unpack gendef-1.0.1346-1-mingwPORT.tar.bz2
+  cd gendef-1.0.1346/mingwPORT
+  ./mingwPORT.sh [--no-cleanup] [--check]
+
+This will create:
+  gendef-1.0.1346-1-mingw32-bin.tar.lzma
+  gendef-1.0.1346-1-mingw32-doc.tar.lzma
+  gendef-1.0.1346-1-mingw32-lic.tar.lzma
+  gendef-1.0.1346-1-mingw32-src.tar.lzma
+
+========================================================================
+
+Files included in the binary distro
+
+  bin/gendef.exe
+  share/doc/MinGW/gendef-1.0.1346-1-mingw32.RELEASE_NOTES
+  share/doc/gendef/COPYING
+  share/doc/gendef/ChangeLog
+
+========================================================================
+
+Port Notes:
+
+----- version 1.0.1346-1 -- 2009-Sep-11 -----
+* Initial release for mingw32, under the new packaging standard.
+* Based on revision r1346, as without individual tags nor packaged
+  releases from the mingw64 project, it is difficult to determine
+  *exactly* which revision corresponds to the actual "1.0" release.
+  So, we specify explicitly a revision.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-054-97f0-654f8d">
+    <release tarname="pthreads-w32-2.9.0-mingw32-pre-20110507-2-lic.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <file path="share/doc/pthreads-w32/2.9.0/COPYING" />
+        <file path="share/doc/pthreads-w32/2.9.0/COPYING.LIB" />
+    </manifest>
+</package>

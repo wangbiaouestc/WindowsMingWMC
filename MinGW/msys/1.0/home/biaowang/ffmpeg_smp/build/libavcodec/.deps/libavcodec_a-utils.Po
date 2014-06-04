@@ -1,0 +1,89 @@
+libavcodec_a-utils.o: ../../h264dec/libavcodec/utils.c \
+ ../../h264dec/libavcodec/avcodec.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h ../config.h \
+ ../../h264dec/libavutil/mem.h ../../h264dec/libavutil/attributes.h \
+ ../../h264dec/libavcodec/dsputil.h \
+ ../../h264dec/libavutil/intreadwrite.h ../../h264dec/libavutil/bswap.h \
+ ../../h264dec/libavutil/x86/bswap.h ../../h264dec/libavutil/attributes.h \
+ ../../h264dec/libavutil/common.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ ../../h264dec/libavutil/mem.h ../../h264dec/libavutil/x86/intreadwrite.h \
+ ../../h264dec/libavcodec/h264_idct.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/float.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/fcntl.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h
+
+../../h264dec/libavcodec/avcodec.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/errno.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+../config.h:
+
+../../h264dec/libavutil/mem.h:
+
+../../h264dec/libavutil/attributes.h:
+
+../../h264dec/libavcodec/dsputil.h:
+
+../../h264dec/libavutil/intreadwrite.h:
+
+../../h264dec/libavutil/bswap.h:
+
+../../h264dec/libavutil/x86/bswap.h:
+
+../../h264dec/libavutil/attributes.h:
+
+../../h264dec/libavutil/common.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/ctype.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/inttypes.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/limits.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/math.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+../../h264dec/libavutil/mem.h:
+
+../../h264dec/libavutil/x86/intreadwrite.h:
+
+../../h264dec/libavcodec/h264_idct.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/float.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/fcntl.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/io.h:

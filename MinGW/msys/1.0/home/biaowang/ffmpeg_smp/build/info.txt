@@ -1,0 +1,24 @@
+make  all-recursive
+make[1]: Entering directory `/home/biaowang/ffmpeg_smp/build'
+Making all in libavutil
+make[2]: Entering directory `/home/biaowang/ffmpeg_smp/build/libavutil'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/biaowang/ffmpeg_smp/build/libavutil'
+Making all in libavcodec
+make[2]: Entering directory `/home/biaowang/ffmpeg_smp/build/libavcodec'
+Making all in opencl
+make[3]: Entering directory `/home/biaowang/ffmpeg_smp/build/libavcodec/opencl'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/biaowang/ffmpeg_smp/build/libavcodec/opencl'
+make[3]: Entering directory `/home/biaowang/ffmpeg_smp/build/libavcodec'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/biaowang/ffmpeg_smp/build/libavcodec'
+make[2]: Leaving directory `/home/biaowang/ffmpeg_smp/build/libavcodec'
+Making all in libport
+make[2]: Entering directory `/home/biaowang/ffmpeg_smp/build/libport'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/biaowang/ffmpeg_smp/build/libport'
+make[2]: Entering directory `/home/biaowang/ffmpeg_smp/build'
+gcc -std=gnu99 -Wall -Werror -g -O2   -o h264dec.exe h264dec.o libavcodec/opencl/libavcodec_opencl.a libavcodec/libavcodec.a  libavutil/libavutil.a   libport/libport.a 
+make[2]: Leaving directory `/home/biaowang/ffmpeg_smp/build'
+make[1]: Leaving directory `/home/biaowang/ffmpeg_smp/build'

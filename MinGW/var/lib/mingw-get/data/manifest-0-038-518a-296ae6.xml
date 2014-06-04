@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<package id="manifest-0-038-518a-296ae6">
+    <release tarname="gendef-1.0.1346-1-mingw32-doc.tar.lzma" />
+    <references>
+        <sysroot id="sysroot-0-002-a7c6-d7dbb5" />
+    </references>
+    <manifest>
+        <dir path="share/doc" />
+        <dir path="share/doc/gendef" />
+        <dir path="share/doc/gendef/1.0.1346" />
+        <file path="share/doc/gendef/1.0.1346/ChangeLog" />
+        <dir path="share/doc/MinGW" />
+        <file path="share/doc/MinGW/gendef-1.0.1346-1-mingw32.RELEASE_NOTES" />
+    </manifest>
+</package>

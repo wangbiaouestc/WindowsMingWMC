@@ -1,0 +1,5 @@
+; c:\MinGW\bin\dlltool.exe -z quserex.def QueueUserAPCEx.o
+EXPORTS
+	QueueUserAPCEx_Fini @ 1
+	QueueUserAPCEx_Init @ 2
+	QueueUserAPCEx @ 3
